@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.smiley {
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  background-color: yellow;
+  position: relative;
+  transition: hover 0.4s ease-out;
+}
+.smiley:hover {
+  transform: translateY(100px);
+}
+.eye-left {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: brown;
+  top: 35%;
+  left: 16%;
+}
+.eye-right {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: brown;
+  top: 35%;
+  right: 16%;
+}
+.mouth {
+  position: absolute;
+  width: 400px;
+  height: 195px;
+  background: #fbbc05;
+  top: 50%;
+  left: 50%;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  transform: translateX(-50%);
+  border-top: 171px solid brown;
+}
+.tongue {
+  position: absolute;
+  width: 200px;
+  height: 110px;
+  background: #fbbc05;
+  left: 50%;
+  bottom: 24px;
+  border-top-left-radius: 116px;
+  border-top-right-radius: 116px;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 665px) {
+  .smiley {
+    width: 300px;
+    height: 300px;
+  }
+  .eye-left,
+  .eye-right {
+    width: 25px;
+    height: 25px;
+  }
+  .mouth {
+    width: 200px;
+    height: 97.5px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 85.5px solid brown;
+  }
+  .tongue {
+    width: 100px;
+    height: 55px;
+    left: 50%;
+    bottom: 12px;
+    border-top-left-radius: 58px;
+    border-top-right-radius: 58px;
+  }
+}

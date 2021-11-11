@@ -1,0 +1,21 @@
+.accordion {
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn-accordion {
+  border: 1px solid #eee;
+  padding: 10px;
+  background: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.body-accordion {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 20px;
+}
