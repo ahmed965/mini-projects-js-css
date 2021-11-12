@@ -1,2 +1,3 @@
 # smiley_face
-smiley face using HTML and CSS
+1. Smiley face using HTML and CSS
+2. It animate when you hover over it
