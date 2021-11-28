@@ -65,7 +65,6 @@ p {
   padding: 10px;
 }
 
-
 .text-center {
   text-align: center;
 }
@@ -73,7 +72,6 @@ p {
 .container {
   padding: 0 15px;
 }
-
 
 .nav-link {
   padding: 10px 20px;
@@ -104,7 +102,7 @@ p {
   
   .col-right,
   .side-bar {
-   flex: 1;
+    flex: 1;
   }
   .mr-medium {
     margin-right: 20px;
