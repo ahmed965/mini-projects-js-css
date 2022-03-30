@@ -1,2 +1,2 @@
 # Form validation
-1. Form validation using javaScript
+1. Form validation using javaScript.

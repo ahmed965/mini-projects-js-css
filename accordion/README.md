@@ -1,3 +1,3 @@
 # Accordion
 
-A javaScript accordion with little CSS
+A javaScript accordion with little CSS.
