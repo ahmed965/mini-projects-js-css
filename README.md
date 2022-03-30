@@ -5,3 +5,4 @@ Mini projects using javascript and css
 2. Template flexbox
 3. Smiley face
 4. Form validation
+5. Newsletter subscription

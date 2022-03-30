@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Newsletter subscription</title>
+  </head>
+  <body class="d-flex d-flex-center">
+    <button class="btn text-white bg-graytext-upper-case" id="newsletter">zum Newsletter anmelden</button>
+    <div class="modal d-flex d-flex-center" id="modal">
+      <div class="modal-content">
+        <form id="form">
+          <div id="message" class="message"></div>
+          <button id="closeModel" class="close-model">+</button>
+          <div class="container modal-header">
+            <h4 class="text-center text-upper-case">Jetzt zum Newsletter anmelden und <em>20€ sichern!</em></h4>
+          </div>
+          <div class="modal-body">
+            <div class="input-box mb-medium">
+              <input type="text" id="firstName" placeholder="Vorname" />
+            </div>
+            <div class="input-box mb-medium">
+              <input type="text" id="lastName" placeholder="Nachname" />
+            </div>
+            <div class="input-box mb-medium">
+              <input type="email" id="email" placeholder="E-Mail Adresse eingeben" />
+            </div>
+            <div class="d-flex d-flex-center">
+              <div class="gender">
+                <input type="radio" name="gender" id="women" value="women" />
+                <label class="label-newsletter text-upper-case mt-medium" for="women">Für Damen</label>
+              </div>
+              <div class="gender">
+                <input type="radio" name="gender" id="men" value="men" />
+                <label class="label-newsletter text-upper-case mt-medium" for="men">Für Herren</label>
+              </div>
+              <div>
+                <button type="submit" id="submit" class="btn text-white bg-gray text-upper-case">Absenden</button>
+              </div>
+            </div>
+          </div>
+          <div class="container modal-footer text-center">
+            <ul class="d-flex d-flex-evently">
+              <li class="text-upper-case">die neuesten Schuhkollektionen</li>
+              <li class="text-upper-case">Persönliche Styling &amp;&nbsp;Lifestyle-Tipps</li>
+              <li class="text-upper-case">Limitierte Angebote</li>
+              <li class="text-upper-case">Geheime Rabatt-Aktionen</li>
+            </ul>
+          </div>
+          <div class="container modal-footer-privacy text-left d-flex">
+            <input type="checkbox" id="privacy" class="privacy" />
+            <label class="label-newsletter" for="privacy">
+            <em>*</em>
+            <p>Mit dem Absenden stimme ich den <a href="#">Datenschutzbestimmungen</a> zu.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
